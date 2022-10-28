@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "IGLU 2022: Interactive Grounded Language Understanding in a Collaborative Environment at NeurIPS 2022"
+date:   2022-05-31 00:00:00 +00:00
+image: /images/iglu.jpeg
+categories: research
+author: "Artem Zholus"
+authors: "Julia Kiseleva*, Alexey Skrynni*, <strong>Artem Zholus*</strong>, Shrestha Mohanty*, Negar Arabzadeh*, Marc-Alexandre Côté*, Mohammad Aliannejadi, Milagro Teruel, Ziming Li, Mikhail Burtsev, Maartje ter Hoeve, Zoya Volovikova, Aleksandr Panov, Yuxuan Sun, Kavya Srinet, Arthur Szlam, Ahmed Awadallah"
+venue: "NeurIPS, Competition Track"
+arxiv: https://arxiv.org/abs/2205.13771
+slides: 
+code: https://github.com/iglu-contest/
+website: "https://www.iglu-contest.net"
+---
+AI competition where goal is to follow a language instruction with context being embodied in 3D blocks world (RL track) and to ask a clarifying question in the case of ambiguity (NLP track).

@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Factorized World Models for Learning Causal Relationships"
+date:   2022-04-15 00:00:00 +00:00
+image: /images/cema.png
+categories: research
+author: "Artem Zholus"
+authors: "<strong>Artem Zholus</strong>, Yaroslav Ivchenkov, and Aleksandr Panov"
+venue: "OSC workshop, ICLR"
+arxiv: https://openreview.net/pdf?id=BCGfDBOIcec
+slides: 
+code: https://github.com/artemZholus/generalization_with_world_models
+website: 
+---
+An RL agent that can generalize behaviour on unseen tasks, which is done by learning a structured world model.
