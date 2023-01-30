@@ -12,4 +12,4 @@ slides:
 code: https://github.com/artemZholus/generalization_with_world_models
 website: 
 ---
-An RL agent that can generalize behaviour on unseen tasks, which is done by learning a structured world model.
+An RL agent that can generalize behavior on unseen tasks, which is done by learning a structured world model and constraining task specific information.

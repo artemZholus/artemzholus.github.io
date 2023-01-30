@@ -12,4 +12,4 @@ slides:
 code: https://github.com/iglu-contest/
 website: "https://www.iglu-contest.net"
 ---
-AI competition where goal is to follow a language instruction with context being embodied in 3D blocks world (RL track) and to ask a clarifying question in the case of ambiguity (NLP track).
+AI competition where the goal is to follow a language instruction with context while being embodied in a 3D blocks world (RL track) and to ask a clarifying question in the case of ambiguity (NLP track).
