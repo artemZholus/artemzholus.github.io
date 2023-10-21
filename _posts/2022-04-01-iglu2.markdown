@@ -2,6 +2,7 @@
 layout: post
 title:  "IGLU 2022: Interactive Grounded Language Understanding in a Collaborative Environment at NeurIPS 2022"
 date:   2022-05-31 00:00:00 +00:00
+year: 2022
 image: /images/iglu.jpeg
 categories: research
 author: "Artem Zholus"

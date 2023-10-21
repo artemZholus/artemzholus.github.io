@@ -2,6 +2,7 @@
 layout: post
 title:  "IGLU Gridworld: Simple and Fast Environment for Embodied Dialog Agents"
 date:   2022-05-31 00:00:00 +00:00
+year: 2022
 image: /images/gridworld.gif
 categories: research
 author: "Artem Zholus"
