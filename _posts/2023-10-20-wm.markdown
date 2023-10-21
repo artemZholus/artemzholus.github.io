@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Mastering Memory Tasks with World Models"
+date:   2023-10-20 00:00:00 +00:00
+image: /images/wmlogo.jpg
+categories: research
+author: "Artem Zholus"
+authors: ""
+venue: "Under review"
+openreview: https://openreview.net/forum?id=1vDArHJ68h
+---
+New State-of-the-Art performance in a diverse set of memory-intense Reinforcement Learning domains: bsuite (tabular, low dimensional), POPgym (tabular, large dimensional), Memory Maze (3D, embodied, high dimensional, long-term). We also show the performance is not dropped in non-memory RL tasks.
