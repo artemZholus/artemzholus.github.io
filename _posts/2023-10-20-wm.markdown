@@ -7,7 +7,9 @@ image: /images/wmlogo.jpg
 categories: research
 author: "Artem Zholus"
 authors: ""
-venue: "Under review"
+Venue: " <span style="color:red">(oral, top-1.2%)</span> ICLR 2024"
 venue2: "Agent Learning in Open-Endedness workshop at NeurIPS 2023"
 ---
 The new **State-of-the-Art performance** in a diverse set of **memory-intense Reinforcement Learning** domains: **bsuite** (tabular, low dimensional), **POPgym** (tabular, high dimensional), **Memory Maze** (3D, embodied, high dimensional, long-term). We also show the performance is not dropped in non-memory RL tasks.
+
+    
