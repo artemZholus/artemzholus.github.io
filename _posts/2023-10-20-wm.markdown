@@ -7,7 +7,7 @@ image: /images/wmlogo.jpg
 categories: research
 author: "Artem Zholus"
 authors: "Mohammad Reza Samsami*, <strong>Artem Zholus*</strong>, Janarthanan Rajendran, Sarath Chandar"
-venue: "<span style="color:red;font-weight:bold">(oral, top-1.2%)</span>ICLR"
+venue: "<span style="color:red;font-weight:bold">(oral, top-1.2%)</span> ICLR"
 ---
 The new **State-of-the-Art performance** in a diverse set of **memory-intense Reinforcement Learning** domains: **bsuite** (tabular, low dimensional), **POPgym** (tabular, high dimensional), **Memory Maze** (3D, embodied, high dimensional, long-term). We also show the performance is not dropped in non-memory RL tasks.
 
