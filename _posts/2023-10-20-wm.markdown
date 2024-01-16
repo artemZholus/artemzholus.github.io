@@ -6,7 +6,7 @@ year: Jan 2024
 image: /images/wmlogo.jpg
 categories: research
 author: "Artem Zholus"
-authors: ""
+authors: "Mohammad Reza Samsami*, <strong>Artem Zholus*</strong>, Janarthanan Rajendran, Sarath Chandar"
 Venue: " <span style="color:red">(oral, top-1.2%)</span> ICLR 2024"
 venue2: "Agent Learning in Open-Endedness workshop at NeurIPS 2023"
 ---
