@@ -13,6 +13,6 @@ code: "https://github.com/chandar-lab/Recall2Imagine"
 website: "https://recall2imagine.github.io"
 arxiv: "https://arxiv.org/abs/2403.04253"
 ---
-The new **State-of-the-Art performance** in a diverse set of **memory-intense Reinforcement Learning** domains: **bsuite** (tabular, low dimensional), **POPgym** (tabular, high dimensional), **Memory Maze** (3D, embodied, high dimensional, long-term). We also show the performance is not dropped in non-memory RL tasks.
+The new **State-of-the-Art performance** in a diverse set of **memory-intense Reinforcement Learning** domains: **bsuite** (tabular, low dimensional), **POPgym** (tabular, high dimensional), **Memory Maze** (3D, embodied, high dimensional, long-term). Importantly, we reach super-human performance in Memory-Maze!
 
     
