@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "BindGPT: A Scalable Framework for 3D Molecular Design via Language Modeling and Reinforcement Learning"
+date:   2023-06-06 00:00:00 +00:00
+year: "2024"
+image: /images/bindgpt-scheme.svg
+categories: research
+author: "Artem Zholus"
+authors: "<strong>Artem Zholus</strong>, Maksim Kuznetsov, Roman Schutski, Rim Shayakhmetov, Daniil Polykovskiy, Sarath Chandar, Alex Zhavoronkov"
+venue: "<strong>Under review</strong>"
+hf: "https://huggingface.co/insilicomedicine/bindgpt\_pretrained"
+website: "https://bindgpt.github.io"
+arxiv: "https://arxiv.org/abs/2406.03686"
+---
+Test
+    
