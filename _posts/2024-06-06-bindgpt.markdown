@@ -2,7 +2,7 @@
 layout: post
 title:  "BindGPT: A Scalable Framework for 3D Molecular Design via Language Modeling and Reinforcement Learning"
 date:   2024-06-06 00:00:00 +00:00
-year: "2024"
+year: "June 2024"
 image: /images/bindgpt-scheme.svg
 categories: research
 author: "Artem Zholus"
