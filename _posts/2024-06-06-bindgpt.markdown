@@ -1,16 +1,16 @@
 ---
 layout: post
 title:  "BindGPT: A Scalable Framework for 3D Molecular Design via Language Modeling and Reinforcement Learning"
-date:   2023-06-06 00:00:00 +00:00
+date:   2024-06-06 00:00:00 +00:00
 year: "2024"
 image: /images/bindgpt-scheme.svg
 categories: research
 author: "Artem Zholus"
 authors: "<strong>Artem Zholus</strong>, Maksim Kuznetsov, Roman Schutski, Rim Shayakhmetov, Daniil Polykovskiy, Sarath Chandar, Alex Zhavoronkov"
 venue: "<strong>Under review</strong>"
-hf: "https://huggingface.co/insilicomedicine/bindgpt\_pretrained"
+hf: "https://huggingface.co/insilicomedicine/bindgpt&#95;pretrained"
 website: "https://bindgpt.github.io"
 arxiv: "https://arxiv.org/abs/2406.03686"
 ---
-Test
+BindGPT is a new framework for building drug discovery models that leverages *compute-efficient pretraining*, *supervised funetuning*, *prompting*, *reinforcement learning*, and *tool use of LMs*. This allows BindGPT to build a single pre-trained model that exhibits state-of-the-art performance in **3D Molecule Generation**, **3D Conformer Generation**, **Pocket-Conditioned 3D Molecule Generation**, posing them as downstream tasks for a pretrained model, while previous methods build task-specialized models without task transfer abilities.
     
