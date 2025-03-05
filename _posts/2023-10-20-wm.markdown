@@ -7,7 +7,7 @@ image: /images/wmlogo.jpg
 categories: research
 author: "Artem Zholus"
 authors: "Mohammad Reza Samsami*, <strong>Artem Zholus*</strong>, Janarthanan Rajendran, Sarath Chandar"
-venue: "<span style="color:red; font-weight: bold;">(oral, top-1.2%)</span> ICLR"
+venue: "<span style='color:red; font-weight: bold;'>(oral, top-1.2%)</span> ICLR"
 openreview: "https://openreview.net/forum?id=1vDArHJ68h"
 code: "https://github.com/chandar-lab/Recall2Imagine"
 website: "https://recall2imagine.github.io"
