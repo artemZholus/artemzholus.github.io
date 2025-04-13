@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "TAPNext: Tracking Any Point (TAP) as Next Token Prediction"
+date:   2025-04-04 00:00:00 +00:00
+year: "2025"
+image: /images/bindgpt-scheme.svg
+categories: research
+author: "Artem Zholus"
+authors: "<strong>Artem Zholus</strong>, Carl Doersch, Yi Yang, Skanda Koppula, Viorica Patraucean, Xu Owen He, Ignacio Rocco, Mehdi S. M. Sajjadi, Sarath Chandar, Ross Goroshin"
+venue: "preprint"
+website: "https://tap-next.github.io"
+arxiv: "https://arxiv.org/abs/2504.05579"
+---
+  
