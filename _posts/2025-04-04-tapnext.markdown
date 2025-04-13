@@ -9,6 +9,7 @@ author: "Artem Zholus"
 authors: "<strong>Artem Zholus</strong>, Carl Doersch, Yi Yang, Skanda Koppula, Viorica Patraucean, Xu Owen He, Ignacio Rocco, Mehdi S. M. Sajjadi, Sarath Chandar, Ross Goroshin"
 venue: "preprint"
 website: "https://tap-next.github.io"
+youtube: "https://youtu.be/6EKxPSUmWgg"
 arxiv: "https://arxiv.org/abs/2504.05579"
 ---
 A new model for the Point Tracking task. Achieves SOTA with a huge margin while offering significantly faster online inference. We use a drastically different (from anything existing before for this task) approach, showing that only the scale of compute and data matters for this task.
