@@ -7,7 +7,7 @@ image: /images/tapnextlogo.png
 categories: research
 author: "Artem Zholus"
 authors: "<strong>Artem Zholus</strong>, Carl Doersch, Yi Yang, Skanda Koppula, Viorica Patraucean, Xu Owen He, Ignacio Rocco, Mehdi S. M. Sajjadi, Sarath Chandar, Ross Goroshin"
-venue: "preprint"
+venue: "ICCV 2025"
 website: "https://tap-next.github.io"
 code: "https://github.com/google-deepmind/tapnet"
 video: "https://youtu.be/6EKxPSUmWgg"
