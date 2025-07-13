@@ -14,4 +14,4 @@ code: "https://github.com/facebookresearch/vjepa2"
 huggingface: "https://huggingface.co/collections/facebook/v-jepa-2-6841bad8413014e185b497a6"
 blogpost: "https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks"
 ---
-A new self-supervised video model that enables understanding, prediction, and planning in video domains. The model is trained on a large-scale video dataset and can be used for various downstream tasks including video understanding, prediction, and planning. 
+By scaling world model pretraining to over a million hours of internet videos, we build V-JEPA 2 that excels at motion understanding, human-action anticipation, and video question answering. We show how action-conditioned post training on just 62 hours of unlabeled robot videos, enables zero-shot generalization in robotic control through planning in the latent space for tasks such as pick-and-place. 
