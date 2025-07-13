@@ -6,7 +6,7 @@ year: "2025"
 image: /images/vjepa2.png
 categories: research
 author: "Artem Zholus"
-authors: "Mido Assran*, Adrien Bardes*, David Fan*, Quentin Garrido*, Russell Howes*, Mojtaba Komeili*, Matthew Muckley*, Ammar Rizvi*, Claire Roberts*, Koustuv Sinha*, <strong>Artem Zholus*</strong>, Sergio Arnaud*, Abha Gejji*, Ada Martin*, Francois Robert Hogan*, Daniel Dugas*, Piotr Bojanowski, Vasil Khalidov, Patrick Labatut, Francisco Massa, Marc Szafraniec, Kapil Krishnakumar, Yong Li, Xiaodong Ma, Sarath Chandar, Franziska Meier*, Yann LeCun*, Michael Rabbat*, and Nicolas Ballas*"
+authors: "Mido Assran*, Adrien Bardes*, ...(8 authors)... , <strong>Artem Zholus*</strong>, ...(13 authors)..., Sarath Chandar, Franziska Meier*, Yann LeCun*, Michael Rabbat*, and Nicolas Ballas*"
 venue: "Technical Report"
 website: ""
 arxiv: ""
