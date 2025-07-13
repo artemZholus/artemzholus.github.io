@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
+date:   2025-03-01 00:00:00 +00:00
+year: "2025"
+image: /images/vjepa2.png
+categories: research
+author: "Artem Zholus"
+authors: "Mido Assran*, Adrien Bardes*, David Fan*, Quentin Garrido*, Russell Howes*, Mojtaba Komeili*, Matthew Muckley*, Ammar Rizvi*, Claire Roberts*, Koustuv Sinha*, <strong>Artem Zholus*</strong>, Sergio Arnaud*, Abha Gejji*, Ada Martin*, Francois Robert Hogan*, Daniel Dugas*, Piotr Bojanowski, Vasil Khalidov, Patrick Labatut, Francisco Massa, Marc Szafraniec, Kapil Krishnakumar, Yong Li, Xiaodong Ma, Sarath Chandar, Franziska Meier*, Yann LeCun*, Michael Rabbat*, and Nicolas Ballas*"
+venue: "Technical Report"
+website: ""
+arxiv: ""
+code: ""
+huggingface: ""
+blogpost: ""
+---
+A new self-supervised video model that enables understanding, prediction, and planning in video domains. The model is trained on a large-scale video dataset and can be used for various downstream tasks including video understanding, prediction, and planning. 
