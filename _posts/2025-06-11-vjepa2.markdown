@@ -3,7 +3,7 @@ layout: post
 title:  "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
 date:   2025-06-11 00:00:00 +00:00
 year: "2025"
-image: /images/vjepa2.png
+image: /images/vjepa2.svg
 categories: research
 author: "Artem Zholus"
 authors: "Mido Assran*, Adrien Bardes*, David Fan*, Quentin Garrido*, Russell Howes*, Mojtaba Komeili*, Matthew Muckley*, Ammar Rizvi*, Claire Roberts*, Koustuv Sinha*, <strong style=\"text-decoration: underline;\">Artem Zholus*</strong>, Sergio Arnaud*, Abha Gejji*, Ada Martin*, Francois Robert Hogan*, Daniel Dugas*, Piotr Bojanowski, Vasil Khalidov, Patrick Labatut, Francisco Massa, Marc Szafraniec, Kapil Krishnakumar, Yong Li, Xiaodong Ma, Sarath Chandar, Franziska Meier*, Yann LeCun*, Michael Rabbat*, and Nicolas Ballas*"
