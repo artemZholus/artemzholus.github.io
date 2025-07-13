@@ -7,7 +7,7 @@ image: /images/bindgpt-scheme.svg
 categories: research
 author: "Artem Zholus"
 authors: "<strong>Artem Zholus</strong>, Maksim Kuznetsov, Roman Schutski, Rim Shayakhmetov, Daniil Polykovskiy, Sarath Chandar, Alex Zhavoronkov"
-venue: "<strong>AAAI, Best Poster Award</strong>"
+venue: "<strong>AAAI</strong> with <strong style=\"color: red;\">Best Poster Award</strong>"
 hf: "https://huggingface.co/insilicomedicine/bindgpt&#95;pretrained"
 website: "https://bindgpt.github.io"
 video: "https://youtu.be/bf_bnj9QmWg"
