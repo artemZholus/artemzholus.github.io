@@ -8,10 +8,10 @@ categories: research
 author: "Artem Zholus"
 authors: "Mido Assran*, Adrien Bardes*, David Fan*, Quentin Garrido*, Russell Howes*, Mojtaba Komeili*, Matthew Muckley*, Ammar Rizvi*, Claire Roberts*, Koustuv Sinha*, <strong style=\"text-decoration: underline;\">Artem Zholus*</strong>, Sergio Arnaud*, Abha Gejji*, Ada Martin*, Francois Robert Hogan*, Daniel Dugas*, Piotr Bojanowski, Vasil Khalidov, Patrick Labatut, Francisco Massa, Marc Szafraniec, Kapil Krishnakumar, Yong Li, Xiaodong Ma, Sarath Chandar, Franziska Meier*, Yann LeCun*, Michael Rabbat*, and Nicolas Ballas*"
 venue: "Technical Report"
-website: ""
-arxiv: ""
-code: ""
-huggingface: ""
-blogpost: ""
+website: "https://ai.meta.com/vjepa"
+arxiv: "https://arxiv.org/abs/2506.09985"
+code: "https://github.com/facebookresearch/vjepa2"
+huggingface: "https://huggingface.co/collections/facebook/v-jepa-2-6841bad8413014e185b497a6"
+blogpost: "https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks"
 ---
 A new self-supervised video model that enables understanding, prediction, and planning in video domains. The model is trained on a large-scale video dataset and can be used for various downstream tasks including video understanding, prediction, and planning. 
