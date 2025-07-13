@@ -1,0 +1,131 @@
+---
+layout: default
+---
+
+<div class="blog-content">
+  <div class="blog-header">
+    <h1>{{ page.title }}</h1>
+    <div class="meta">
+      {{ page.date | date: "%B %d, %Y" }}
+      {% if page.author %} • {{ page.author }}{% endif %}
+    </div>
+  </div>
+  
+  {{ content }}
+  
+  {% if page.bibliography %}
+  <div class="bibliography">
+    <h2>References</h2>
+    <div id="citations"></div>
+  </div>
+  
+  <script>
+    // Process bibliography
+    const Cite = require('@citation-js/core').Cite
+    require('@citation-js/plugin-bibtex')
+    
+    const bibtex = `{{ page.bibliography }}`
+    const cite = new Cite(bibtex)
+    document.getElementById('citations').innerHTML = cite.format('bibliography', {
+      format: 'html',
+      template: 'apa',
+      lang: 'en-US'
+    })
+  </script>
+  {% endif %}
+</div>
+
+<div style="text-align: center; margin-top: 40px;">
+  <a href="{{ site.baseurl }}/blog/">← Back to Blog</a>
+</div>
+
+<!-- MathJax for LaTeX support -->
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+    }
+  };
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- Citation.js for bibliography support -->
+<script src="https://cdn.jsdelivr.net/npm/@citation-js/core@0.6.1"></script>
+<script src="https://cdn.jsdelivr.net/npm/@citation-js/plugin-bibtex@0.6.1"></script>
+
+<style>
+  .blog-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .blog-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .blog-content video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .blog-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .blog-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .blog-header .meta {
+    color: #666;
+    font-style: italic;
+  }
+  
+  .blog-content h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .blog-content p {
+    margin-bottom: 20px;
+  }
+  
+  .bibliography {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+  }
+  
+  .bibliography h2 {
+    margin-bottom: 20px;
+  }
+  
+  code {
+    background: #f5f5f5;
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
+  
+  pre code {
+    display: block;
+    padding: 15px;
+    overflow-x: auto;
+  }
+</style> 

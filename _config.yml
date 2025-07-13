@@ -61,11 +61,29 @@ permalink: /
 # The release of Jekyll Now that you're using
 version: v1.2.0
 
+# Blog settings
+blog:
+  title: "Blog"
+  description: "Technical blog posts about machine learning, deep learning, and artificial intelligence"
+  author: "Artem Zholus"
+  show_excerpts: true
+  paginate: 5
+  paginate_path: "/blog/page:num/"
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /papers/:year/:month/:day/:title/
+  blogposts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
   # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  math_engine: mathjax
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     # Use existing pygments syntax highlighting css
@@ -77,8 +95,9 @@ sass:
 
 # Use the following plug-ins
 plugins:
-      - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-    #  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
 
 # Exclude these files from your production _site
 exclude:
@@ -91,3 +110,7 @@ exclude:
   - todo.txt
   - _temp/index.html
   - _temp/
+  - vendor
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache

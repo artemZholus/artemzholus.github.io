@@ -1,0 +1,48 @@
+---
+layout: default
+title: Blog
+---
+
+<style>
+.image-container {
+  margin: 0 auto 15px auto;
+}
+.image-container.large {
+  max-width: 500px;
+}
+.image-container.small {
+  max-width: 250px;
+}
+</style>
+
+<div style="max-width: 800px; margin: 0 auto; padding: 20px;">
+  <h1>Blog Posts</h1>
+  
+  <div class="posts">
+    {% for post in site.blogposts %}
+      <article class="post" style="margin-bottom: 40px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+        <h2 style="margin-bottom: 10px;">
+          <a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration: none; color: #333;">{{ post.title }}</a>
+        </h2>
+        
+        <div class="meta" style="color: #666; font-style: italic; margin-bottom: 15px;">
+          {{ post.date | date: "%B %d, %Y" }}
+          {% if post.author %} • {{ post.author }}{% endif %}
+        </div>
+        
+        {% if post.image %}
+          {% assign image_name = post.image | split: '/' | last %}
+          <div class="image-container {% if image_name == 'dist_ssm.png' %}large{% else %}small{% endif %}">
+            <img src="{{ post.image }}" alt="{{ post.title }}" style="width: 100%; height: auto;">
+          </div>
+        {% endif %}
+        
+        <div class="excerpt" style="margin-bottom: 15px;">
+          {{ post.excerpt }}
+        </div>
+        
+        <a href="{{ site.baseurl }}{{ post.url }}" style="display: inline-block; padding: 5px 10px; background: #f5f5f5; color: #333; text-decoration: none; border-radius: 3px;">Read More →</a>
+      </article>
+    {% endfor %}
+  </div>
+</div> 
