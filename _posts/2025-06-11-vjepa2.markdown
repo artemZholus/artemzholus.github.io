@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
-date:   2025-03-01 00:00:00 +00:00
+date:   2025-06-11 00:00:00 +00:00
 year: "2025"
 image: /images/vjepa2.png
 categories: research
