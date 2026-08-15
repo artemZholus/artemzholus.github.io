@@ -6,7 +6,7 @@ year: "2026"
 image: /images/semantic-wm.png
 categories: research
 author: "Artem Zholus"
-authors: "Nilaksh, Saurav Jha, <strong>Artem Zholus</strong>, Sarath Chandar"
+authors: "Nilaksh<strong>*</strong>, Saurav Jha<strong>*</strong>, <strong>Artem Zholus*</strong>, Sarath Chandar"
 venue: "preprint"
 website: "https://hskalin.github.io/semantic-wm/"
 arxiv: "https://arxiv.org/abs/2605.06388"
