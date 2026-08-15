@@ -12,4 +12,4 @@ website: "https://tap-next-plus-plus.github.io/"
 code: "https://github.com/google-deepmind/tapnet"
 arxiv: "https://arxiv.org/abs/2604.10582"
 ---
-An extension of TAPNext to much longer video sequences, addressing its struggles with re-detecting query points that reappear after occlusion or leaving the frame. Introduces training on 1024-frame sequences via parallelism, a new Re-Detection Average Jaccard (AJ_RD) metric, and geometric augmentations for re-detection, achieving state-of-the-art point tracking results for AR/XR and robotics.
+An extension of TAPNext to much longer video sequences, trained on 1024-frame sequences via parallelism, achieving state-of-the-art point tracking results for AR/XR and robotics.

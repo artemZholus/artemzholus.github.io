@@ -12,4 +12,4 @@ website: "https://kevinghst.github.io/HWM/"
 code: "https://github.com/kevinghst/HWM_PLDM"
 arxiv: "https://arxiv.org/abs/2604.03208"
 ---
-A hierarchical model predictive control system that learns multi-scale world models within a unified latent space, letting long-horizon predictions guide short-horizon planning via latent matching without task-specific rewards. Achieves 70% success vs. 0% for single-level planning on robotic pick-and-place tasks, while reducing computational requirements.
+A hierarchical model predictive control system that learns multi-scale world models in a unified latent space, letting long-horizon predictions guide short-horizon planning. Achieves 70% success vs. 0% for single-level planning on robotic pick-and-place tasks.
