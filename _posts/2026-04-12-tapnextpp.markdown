@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TAPNext++: What's Next for Tracking Any Point (TAP)?"
+date:   2026-04-12 00:00:00 +00:00
+year: "2026"
+image: /images/tapnextpp.png
+categories: research
+author: "Artem Zholus"
+authors: "Sebastian Jung<strong>*</strong>, <strong>Artem Zholus*</strong>, Martin Sundermeyer, Carl Doersch, Ross Goroshin, David Joseph Tan, Sarath Chandar, Rudolph Triebel, Federico Tombari"
+venue: "arXiv preprint"
+arxiv: "https://arxiv.org/abs/2604.10582"
+---
+An extension of TAPNext to much longer video sequences, addressing its struggles with re-detecting query points that reappear after occlusion or leaving the frame. Introduces training on 1024-frame sequences via parallelism, a new Re-Detection Average Jaccard (AJ_RD) metric, and geometric augmentations for re-detection, achieving state-of-the-art point tracking results for AR/XR and robotics.
