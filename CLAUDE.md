@@ -40,5 +40,6 @@ Images referenced by posts live in `images/`; thumbnails (if generated) go to `t
 
 ## Adding content
 
-- New paper: add a file to `_posts/` named `YYYY-MM-DD-slug.markdown` with `layout: post`, `categories: research`, and the front-matter fields described above — it will automatically appear in the homepage papers table (newest first, per Jekyll collection ordering).
+- New paper: add a file to `_posts/` named `YYYY-MM-DD-slug.markdown` with `layout: post`, `categories: research`, and the front-matter fields described above — it will automatically appear in the homepage papers table (newest first, per Jekyll collection ordering). Look up missing details (authors, venue, links) from the arXiv page and/or project website when the user gives a paper URL instead of asking. Artem Zholus is always wrapped in `<strong>`; co-first authors get a `*` immediately after the name, itself wrapped in `<strong>` (e.g. `<strong>Artem Zholus*</strong>`), matching existing posts.
 - New blog post: add a file to `_blogposts/` (create the directory if absent) named `YYYY-MM-DD-slug.markdown` with `layout: blog`.
+- After adding/editing a post, run `bundle exec jekyll build` to confirm it renders, then commit and push directly (no need to confirm with the user first for routine content additions like new papers/posts) — push with `git push git@github.com:artemZholus/artemzholus.github.io.git master` since `origin` is an HTTPS remote with no credentials configured in this environment.
